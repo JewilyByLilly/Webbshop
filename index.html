@@ -1,41 +1,30 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jewily By Lilly</title>
-    <!-- Länk till din CSS-fil -->
-    <link rel="stylesheet" href="style.css">
+    <title>Jewily_By_Lilly Webshop</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Jewily By Lilly</h1>
-        <nav>
-            <ul>
-                <li><a href="#shop">Shop</a></li>
-                <li><a href="#kontakt">Kontakt</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main id="shop">
-        <h2>Våra Produkter</h2>
-        <div class="product">
-            <h3>Produkt 1</h3>
-            <p>Beskrivning av Produkt 1.</p>
-            <!-- Knapp med data-attribut för produkten -->
-            <button data-product="Produkt 1">Köp nu</button>
+    <section class="product-list">
+        <div class="product-item">
+            <img src="images/product1.jpg" alt="Produkt 1" class="product-image">
+            <h3 class="product-name">Produktnamn 1</h3>
+            <p class="product-description">Den här produkten är fantastisk...</p>
+            <span class="product-price">$30.00</span>
+            <button class="product-button">Lägg till i varukorg</button>
         </div>
-        <div class="product">
-            <h3>Produkt 2</h3>
-            <p>Beskrivning av Produkt 2.</p>
-            <!-- Knapp med data-attribut för produkten -->
-            <button data-product="Produkt 2">Köp nu</button>
+
+        <div class="product-item">
+            <img src="images/product2.jpg" alt="Produkt 2" class="product-image">
+            <h3 class="product-name">Produktnamn 2</h3>
+            <p class="product-description">Den här produkten är bra för...</p>
+            <span class="product-price">$25.00</span>
+            <button class="product-button">Lägg till i varukorg</button>
         </div>
-    </main>
-    <footer>
-        <p>© 2025 Jewily By Lilly</p>
-    </footer>
-    <!-- Länk till din JavaScript-fil -->
-    <script src="script.js"></script>
+
+        <!-- Lägg till fler produkter här -->
+    </section>
 </body>
 </html>
